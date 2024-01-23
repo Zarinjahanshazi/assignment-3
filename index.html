@@ -56,8 +56,8 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end">
-                <i class="fa-solid fa-magnifying-glass mt-5"></i>
+            <div class="navbar-end flex items-center gap-5">
+                <i class="fa-solid fa-magnifying-glass m-2 " style="color:#89898B"></i>
               <a class="btn bg-[#FF4240] px-6 text-white font-bold text-[20px]">Get Ticket</a>
             </div>
           </div>
@@ -67,6 +67,39 @@
       <section>
 
       </section>
+
+
+      <!-- banner -->
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full rounded-lg" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle border-none bg-black text-white">❮</a> 
+            <a href="#slide2" class="btn btn-circle border-none bg-black text-white">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full rounded-lg" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle bg-black text-white ">❮</a> 
+            <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full rounded-lg" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a> 
+            <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full rounded-lg" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a> 
+            <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div>
+      </div>
 
       <!-- hook club  -->
       <section>
@@ -121,7 +154,7 @@
         <!-- 1st hero  -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20 mb-8">
             <div>
-                <div class="hero min-h-[350px]" style="background-image: url(Images/2.png);">
+                <div class="hero min-h-[350px]" style=" background-image: url(Images/2.png); ">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-neutral-content">
                       <div class="max-w-md">
@@ -149,10 +182,10 @@
 
         <!-- hero-2  -->
         <div>
-            <div class="hero min-h-[450px]" style="background-image: url(Images/4.png);"  class="rounded-lg">
+            <div class="hero min-h-[450px] rounded-lg" style="background-image: url(Images/4.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class=" text-neutral-content">
-                  <div class="max-w-md ml-4">
+                  <div class="max-w-md">
                     <h1 class="mb-5 text-3xl font-extrabold mt-20">Professional Program</h1>
                     <p class="mb-5">Our professional hockey program is designed for elite athletes. Focused on advanced skill training, strategic gameplay, and career development, we prepare players for success at the highest level, shaping future hockey professionals.</p>
                     <button class="btn bg-[#FF4240] border-none text-[20px] text-white font-bold">Register Now!</button>
@@ -351,6 +384,9 @@
     </section>
      
 
+    <!-- social media -->
+    
+
       <!-- footer -->
       <section>
         <footer class="footer p-10 bg-base-200 text-base-content bg-black text-white pt-28">
@@ -360,6 +396,16 @@
               <p class="text-[#ffffff96] text-xs">Have questions or need<br>
                 assistance? Feel free to get<br>
                 in touch with us.</p>
+                <div class="flex items-center gap-3">
+                    <i class="far fa-envelope" style="color: red;"></i>
+                    <p class="text-[#ffffff96] text-xs">hockeys@support.com</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-phone" style="color: red;"></i>
+                    <p class="text-[#ffffff96] text-xs">(+62) 123-321-543</p>
+                </div>
+                
+                
             </aside> 
              
             <nav>
